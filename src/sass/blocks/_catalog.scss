@@ -139,6 +139,7 @@
                 font-size: 14px;
                 font-weight: 400;
                 margin-bottom: 20px;
+                list-style-type: none;
                 &:before {
                 content: '';
                 position: absolute;
@@ -159,8 +160,8 @@
             color: $main-color;
             font-size: 14px;
             font-weight: 500;
+            text-transform: uppercase;
             text-decoration: underline;
-            text-decoration: uppercase;
             &:hover {
                 color: $main-color;
             }
