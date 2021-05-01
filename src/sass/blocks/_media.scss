@@ -1,0 +1,126 @@
+@media (max-width: 991px) {
+    .header {
+        padding: 0 20px 0 20px;
+    }
+    .promo {
+        &__wrapper {
+            padding-right: 20px;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .consultation {
+        padding-left: 20px;
+    }
+    .carousel {
+        img {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin-right: 20px;
+        }
+    }
+    .clients {
+        &-item {
+            width: 725px;
+        }
+    }
+}
+@media(max-width: 767px) {
+    .header {
+        padding: 0 30px 0 30px;
+    }
+    .promo {
+        padding-bottom: 70px;
+        &__wrapper {
+            margin-top: 70px;
+            padding-right: 30px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            margin-top: 13px;
+            font-size: 16px;           
+        }
+        &__icons {
+            margin-top: 35px;
+            width: 380px;
+        }
+    }
+    .advantage {
+        padding: 60px 0 65px 0;
+        &__wrapper {
+            padding-top: 40px;
+        }
+        &__subheader {
+            margin-top: 45px;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 50px;
+            width: 250px;
+        }
+    }
+    .consultation {
+        padding: 90px 0 70px 30px;
+        min-height: 650px;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 30px;
+        }
+    }
+    .carousel {
+        padding-bottom: 60px;
+        img {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        padding-bottom: 60px;
+    }
+    .clients {
+        &-item {
+            width: 700px;
+        }
+    }
+}
+@media(max-width: 575px) {
+    .header {
+        padding: 0 20px 0 20px;
+        &__logo {
+            width: 150px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            display: none;
+        }      
+    }
+}
