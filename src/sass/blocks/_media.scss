@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 1200px){
     .header {
         padding: 0 20px 0 20px;
     }
@@ -39,9 +39,12 @@
         }
     }
 }
-@media(max-width: 767px) {
+@media (max-width: 991px) {
     .header {
         padding: 0 30px 0 30px;
+        &__logo {
+            width: 210px;
+        }
     }
     .promo {
         padding-bottom: 70px;
@@ -92,11 +95,13 @@
         padding-bottom: 60px;
         img {
             width: 70%;
-            margin: 0 auto;
         }
     }
     .catalog {
         padding-bottom: 60px;
+        &__tab {
+            width: 190px;
+        }
     }
     .clients {
         &-item {
@@ -104,23 +109,81 @@
         }
     }
 }
-@media(max-width: 575px) {
-    .header {
-        padding: 0 20px 0 20px;
-        &__logo {
-            width: 150px;
+@media(max-width: 767px) {
+    .promo {
+        .header {
+            padding: 0 20px 0 20px;
+            &__logo {
+                width: 170px;
+            }
+            &__official {
+                font-size: 10px;
+                span {
+                    font-size: 16px;
+                }
+            }
+            &__phone {
+                font-size: 14px;
+            }
+            .button {
+                display: none;
+            }      
         }
-        &__official {
-            font-size: 10px;
-            span {
-                font-size: 16px;
+    }
+    .advantage {
+        &__wrapper {
+            padding-top: 20px;
+            justify-content: center;
+            flex-flow: column wrap;
+        }
+        &__descr {
+            margin: 0 auto;
+            font-size: 15px;
+        }
+        &__subheader {
+            margin-top: 30px;
+        }
+        &__item {
+            margin-top: 20px
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .catalog {
+        padding-top: 30px;
+        &__tab {
+            width: 160px;
+        }
+        &-item {
+            margin-right: 0;
+        }
+    }
+    .clients {
+        &-item{
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            width: 500px;
+            img {
+                margin: 0 auto;
+                margin-bottom: 30px;
+                padding-right: 0px;
+            }
+            &__header {
+                text-align: center;
+                font-size: 17px;
+            }
+            &__subheader {
+                text-align:center;
+                font-size: 14px;
+            }
+            &__descr {
+                font-size: 15px;
             }
         }
-        &__phone {
-            font-size: 14px;
-        }
-        .button {
-            display: none;
-        }      
-    }
+    }  
+}
+@media(max-width: 575px) {
+    
 }
