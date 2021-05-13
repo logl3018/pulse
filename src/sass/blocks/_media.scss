@@ -109,6 +109,7 @@
         }
     }
 }
+/* footer_media in footer.scss */
 @media(max-width: 767px) {
     .promo {
         min-height: 620px;
@@ -231,6 +232,10 @@
         }
     }
     .promo {
+        &__wrapper {
+            align-items: center;
+            padding-right: 0px;
+        }
         &__header {
             font-size: 20px;
         }
@@ -239,9 +244,12 @@
         }
         &__icons {
             display: flex;
-            justify-content: center;
+            align-items: center;
             flex-flow: column wrap;
+        }
+        &__icon {
             margin: 0 auto;
+            margin-top: 20px;
         }
     }
     .button {
@@ -256,9 +264,31 @@
         width: 250px;
     }
     .catalog {
+        &-item {
+            width: 250px;
+            hr {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            &__list {
+            
+                li {
+                    margin-bottom: 5px;
+                    font-size: 13px;
+                }
+            }
+            &__descr {
+                font-size: 12px;
+            }
+        }
         &__tab {
             width: 82px;
             font-size: 9px;
+        }    
+    }
+    .button {
+        &_mini {
+            width: 80px;
         }
     }
     .clients {

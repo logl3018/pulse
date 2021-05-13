@@ -1,40 +1,42 @@
 .clients {
-    padding-bottom: 35px;
+    padding-bottom: 70px;
     display: flex;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
     &-item {
         display: flex;
         justify-content: left;
         align-items: flex-start;
-        width: 840px;
+        width: 881px;
         img {
-            height: 145px;
-            padding-right: 50px;
+            height: 169px;
+            padding-right: 60px;
         }
         &__block {
             text-align: left;
         }
         &__header {
-            font-size: 15px;
+            font-size: 18px;
             font-weight: 700;
             color: #0d0d0d;
         }
         &__subheader {
-            font-size: 11px;
+            font-size: 14px;
             font-weight: 300;
             color: #646464;
-            padding-top: 5px;
+            padding-top: 10px;
         }
         &__descr {
-            font-size: 13px;
+            font-size: 16px;
             font-weight: 500;
             color: #0d0d0d;
-            padding-top: 10px;
+            padding-top: 19px;
+            line-height: 1.2;
         }
     }
     hr {
-        background-color: #f6f6f6;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        color: #f6f6f6;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }    
